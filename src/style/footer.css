@@ -1,0 +1,23 @@
+.footer {
+    background-color: #235DAC;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: auto;
+    padding: 1%;
+}
+.group4 {
+    padding: 20px;
+}
+
+.group3 {
+    padding: 20px
+}
+
+.group2 {
+    padding: 20px;
+}
+
+.group1{
+    padding: 20px;
+}
