@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from "./Card";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
+import logo from "./assets/itcwhite.png";
 
 function App(){
+    var nav_items = ["Home", "Features", "Documentations", "Pricing", "Bar", "Clubs"];
+    var logo_src = logo;
  return(
 
     <div>
+    <NavBar present={nav_items[0]} nav_items={nav_items} logo_src={logo_src}/>
     <div class = "container">
         <div className = "row">   
             <Card heading = "UMIC" subheading = "Mahindra RISE Driverless Car Challenge" description = "Founded by Prof. C. Amarnath, Unmesh Mashruwala Innovation Cell (UMIC) is an interdisciplinary student team that focuses on solving global problems by designing innovative and cost-effective autonomous systems. Currently, we are working on two major long term projects with Team SeDriCa developing a fully autonomous driverless car, customized for the Indian road conditions and Team AeRoVe developing automated rescue drones equipped with remote payload delivery, human detection & interaction capabilities." img = "https://www.umiciitb.com/static/img/sedrica_final.png" />
