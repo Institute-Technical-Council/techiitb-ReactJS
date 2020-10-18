@@ -1,0 +1,25 @@
+.bg-blue {
+    background-color:#03002e;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: aqua;
+    text-shadow: 0px 0px 3px #E92EFB, 0px 0px 9px #440BD4, 0px 0px 15px #04005E;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.navbar-light .navbar-nav > .active1 > a {
+    color: aqua; 
+    text-shadow: 0px 0px 3px #E92EFB, 0px 0px 25px #440BD4, 0px 0px 30px #04005E;
+    letter-spacing: 5px;
+    font-weight: bold;
+  }
+.navbar-light .navbar-nav .nav-item > a:hover {
+    color: #FF2079;
+  }
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
