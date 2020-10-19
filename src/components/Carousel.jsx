@@ -4,25 +4,29 @@ import data from "../carousel";
 
 function CarouselHome() {
     return (
-        <div style={{ padding: "20px" }}>
-            <div class="container shadow p-3 mb-5 bg-white rounded" >
+            <div >
                 <Carousel interval={2000}>
                     {data.map(item => (
                         <Carousel.Item>
                             <img
-                                className="d-block w-100 rounded"
+                                className="d-block w-100"
+                                style = {{opacity : "95%"}}
+                                height = "770vh"
                                 src={item.img}
                                 alt={item.heading}
                             />
+                            
                             <Carousel.Caption>
-                                <h3>{item.heading}</h3>
-                                <p>{item.sub}</p>
+                            
+                                <h1 className = "animation size" >{item.heading}</h1>
+                        
                             </Carousel.Caption>
+                            
                         </Carousel.Item>
                     ))}
                 </Carousel>
             </div>
-        </div>
+       
     )
 }
 

@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 /* ----------------------------------------------------------------------- */
@@ -48,4 +50,31 @@
 }
 /* ------------------------------------------------------------ */
 
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity:100;}
+  }
+  
+  /* The element to apply the animation to */
+  .animation {
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: red; */
+    animation-name: example;
+    animation-duration: 4s;
+    
+  }
+  .size{
+    margin:-420px;
+    font-size:6vw;
+    font-weight: bold;
+  }
+  /* .size:hover{
+      animation-name: enlarge;
+      animation-duration: 2s;  
+  }
 
+  @keyframes enlarge {
+    from {font-size: 6vw;}
+    to {font-size: 8vw;}
+  } */
