@@ -9,17 +9,17 @@ function CarouselHome() {
                     {data.map(item => (
                         <Carousel.Item>
                             <img
-                                className="d-block w-100"
+                                className="d-block carousel-img"
                                 style = {{opacity : "95%"}}
-                                height = "770vh"
+                                
                                 src={item.img}
                                 alt={item.heading}
                             />
                             
                             <Carousel.Caption>
-                            
+                                
                                 <h1 className = "animation size" >{item.heading}</h1>
-                        
+                              
                             </Carousel.Caption>
                             
                         </Carousel.Item>

@@ -65,9 +65,11 @@ body{
     
   }
   .size{
-    margin:-420px;
+   
+    
     font-size:6vw;
     font-weight: bold;
+    text-align: center;
   }
   /* .size:hover{
       animation-name: enlarge;
@@ -78,3 +80,9 @@ body{
     from {font-size: 6vw;}
     to {font-size: 8vw;}
   } */
+
+  .carousel-img{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+  }
