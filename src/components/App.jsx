@@ -9,9 +9,10 @@ import itc from "../assets/itcwhite.png"
 function App() {
     return (
         <div>
-            <CarouselHome />  
-            <NavBar nav_items={["Home","Documentations","Hall of Fame"]} present={"Home"} logo_src={itc}/>
+             
+            <CarouselHome /> 
             <CardGroup />
+            
             <Footer />
         </div>
     )

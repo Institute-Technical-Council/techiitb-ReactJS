@@ -1,34 +1,42 @@
+import carouselBackground from './assets/carbgimg.png'
+import carouselImage from './assets/carimg.png'
+
+
 const data = [
     {
-        img :"https://www.tech-iitb.org/static/team2020/aerohome-1.png",
-        heading: "FIRST SLIDE LABEL",
+        img : carouselBackground,
+        i : carouselImage,
+        subheading: "Institute Technical Council",
+        heading: "TINKER. IDEATE. INNOVATE",
         sub: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
+    /*
     {
-        img :"https://www.tech-iitb.org/static/team2020/erchome-1.png",
+        img :carouselBackground,
         heading: "SECOND SLIDE LABEL",
         sub: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
     {
-        img :"https://www.tech-iitb.org/static/team2020/wncchome-1.png",
+        img :carouselBackground,
         heading: "THIRD SLIDE LABEL",
         sub: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
     {
-        img :"https://www.tech-iitb.org/static/team2020/erchome-2.png",
+        img :carouselBackground,
         heading: "FOURTH SLIDE LABEL",
         sub: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
     {
-        img :"https://www.tech-iitb.org/static/team2020/aerohome-2.png",
+        img :carouselBackground,
         heading: "FIFTH SLIDE LABEL",
         sub: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
     {
-        img :"https://www.tech-iitb.org/static/team2020/wncchome-2.png",
+        img :carouselBackground,
         heading: "SIXTH SLIDE LABEL",
         sub: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     }
+    */
 
 ]
 
