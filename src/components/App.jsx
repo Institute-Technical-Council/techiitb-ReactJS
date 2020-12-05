@@ -5,13 +5,16 @@ import CarouselHome from "./Carousel";
 import CardGroup from "./CardGroup"
 import NavBar from "./NavBar";
 import itc from "../assets/itcwhite.png"
+import techteams from '../techteams';
+import clubs from '../clubs';
 
 function App() {
     return (
         <div>
              
             <CarouselHome /> 
-            <CardGroup />
+            <CardGroup title = "Technical Teams" group = {techteams} />
+            <CardGroup title = "Clubs" group = {clubs}/>
             
             <Footer />
         </div>
