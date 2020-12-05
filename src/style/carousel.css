@@ -1,0 +1,32 @@
+h1 {
+    color: #0B2D5C;
+    font-family: 'Bebas Neue';
+    font-size: 100px;
+    text-align: left;
+}
+h2 {
+    line-height: 10px;
+    color: #0B2D5C;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    text-align: left;
+}
+.size {
+    font-size: 10px;
+}
+.carousel-caption {
+    padding-top: 675px;
+    padding-left: 83px;
+    top: 0;
+    left: 0;
+    
+}
+
+.inside-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 768.82px;
+    padding-top: 121.47px;
+}
+
