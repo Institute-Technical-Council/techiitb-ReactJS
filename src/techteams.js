@@ -30,7 +30,26 @@ const techteams = [
         subheading : "Solar Decathlon", 
         description : "Team Shunya, the first Indian team to get selected in Solar Decathlon Europe, aims to change the meaning of comfortable and affordable living for the middle class Indian households. The Solar Decathlon is an international student competition taking place every two years. This competition was created in 2002 by the U.S. Department of Energy in order to develop the transmission of the knowledge and the research in the field of the green buildings, in particular solar energy." ,
         img : "https://upload.wikimedia.org/wikipedia/commons/c/c9/Team_shunya_logo.jpg" 
+    },
+    {
+        heading : "IITB Racing" ,
+        subheading : "Formula Student" ,
+        description : "The IITB Racing team had recently participated in the Formula Student 2014, the largest student motorsport competition in the world. Formula Student is run by the Institute of Mechanical Engineers- IMechE, a UK based body, which challenges student engineers to design, build and race a single seat race-car within a year" ,
+        img : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTcIXqVDO6hw-ajDXSPY9oaWZws2sJ3tsDKA&usqp=CAU"
+    },
+    {
+        heading : "IITB Racing" ,
+        subheading : "Formula Student" ,
+        description : "The IITB Racing team had recently participated in the Formula Student 2014, the largest student motorsport competition in the world. Formula Student is run by the Institute of Mechanical Engineers- IMechE, a UK based body, which challenges student engineers to design, build and race a single seat race-car within a year" ,
+        img : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTcIXqVDO6hw-ajDXSPY9oaWZws2sJ3tsDKA&usqp=CAU"
+    },
+    {
+        heading : "IITB Racing" ,
+        subheading : "Formula Student" ,
+        description : "The IITB Racing team had recently participated in the Formula Student 2014, the largest student motorsport competition in the world. Formula Student is run by the Institute of Mechanical Engineers- IMechE, a UK based body, which challenges student engineers to design, build and race a single seat race-car within a year" ,
+        img : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTcIXqVDO6hw-ajDXSPY9oaWZws2sJ3tsDKA&usqp=CAU"
     }
+
 
 ];
 
