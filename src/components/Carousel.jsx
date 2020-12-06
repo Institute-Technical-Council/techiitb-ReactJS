@@ -11,9 +11,11 @@ function CarouselHome() {
     return (
             <div >
                 <Carousel interval={2000}>
-                <NavBar nav_items={["Home","Documentations","Hall of Fame"]} present={"Hall of Fame"} logo_src={itc}/>
+                
                     {data.map(item => (
+
                         <Carousel.Item>
+                        <NavBar nav_items={["Home","Documentations","Hall of Fame"]} present={"Hall of Fame"} logo_src={itc}/>
                             <img
                                 className="d-block carousel-img"
                                 style = {{opacity : "100%"}}

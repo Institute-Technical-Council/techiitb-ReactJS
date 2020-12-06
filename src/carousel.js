@@ -9,7 +9,7 @@ const data = [
         subheading: "Institute Technical Council",
         heading: "TINKER. IDEATE. INNOVATE",
         sub: "Nulla vitae elit libero, a pharetra augue mollis interdum."
-    },
+    }
     /*
     {
         img :carouselBackground,

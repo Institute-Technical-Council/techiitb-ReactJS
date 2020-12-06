@@ -15,18 +15,19 @@ h2 {
     font-size: 10px;
 }
 .carousel-caption {
-    padding-top: 675px;
+    padding-bottom: 100px;
     padding-left: 83px;
-    top: 0;
+    bottom: 0;
     left: 0;
+    
     
 }
 
 .inside-image {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     padding-left: 768.82px;
-    padding-top: 121.47px;
+    
 }
 
