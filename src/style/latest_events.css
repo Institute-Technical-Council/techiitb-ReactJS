@@ -20,5 +20,12 @@
  h3
  {
      color:#0B2D5C;
+     font-family: 'Bebas Neue';
+     font-size: 60px;
+     text-align: center;
+ }
+ p{
+     padding-top: 35px;
+     font-family: 'Montserrat';
  }
  
