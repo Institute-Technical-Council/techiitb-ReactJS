@@ -7,6 +7,8 @@ import NavBar from "./NavBar";
 import itc from "../assets/itcwhite.png"
 import techteams from '../techteams';
 import clubs from '../clubs';
+import Services from './Service';
+import CounterContainer from './CounterContainer';
 
 class App extends React.Component {
     
@@ -14,11 +16,17 @@ class App extends React.Component {
         return (
         <div>
              
-            <CarouselHome /> 
+            <CarouselHome />
             <section>
-            <CardGroup title = "Technical Teams" group = {techteams} />
+                <Services heading="Our services" subheading="These are our services provided to IITB community"/>
             </section>
-            <CardGroup title = "Clubs" group = {clubs}/>
+            <section>
+                <CounterContainer heading="Some numbers" subheading="These are some numbers which describe us"/>
+            </section>
+            <section>
+                <CardGroup title = "Technical Teams" group = {techteams} />
+            </section>
+                <CardGroup title = "Clubs" group = {clubs}/>
             
             <Footer />
         </div>
