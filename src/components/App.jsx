@@ -7,6 +7,7 @@ import NavBar from "./NavBar";
 import itc from "../assets/itcwhite.png"
 import techteams from '../techteams';
 import clubs from '../clubs';
+import blogs from "../blogs";
 
 class App extends React.Component {
     
@@ -19,6 +20,8 @@ class App extends React.Component {
             <CardGroup title = "Technical Teams" group = {techteams} />
             </section>
             <CardGroup title = "Clubs" group = {clubs}/>
+            <CardGroup title = "Blogs" group ={blogs}/>
+
             
             <Footer />
         </div>
