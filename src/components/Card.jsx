@@ -2,7 +2,7 @@ import React from 'react';
 
 function Card(props) {
     return (
-            <div className="col-md-4 col-lg-3 card-container" style={{textAlign: "center" ,padding: "15px" }}>
+            <div className="col-md-4 col-lg-3 card-container" style={{textAlign: "center" ,padding: "30px" }}>
                 {/* <div className="card-flip"> */}
 
                     <div className="card rounded-cards"  >
