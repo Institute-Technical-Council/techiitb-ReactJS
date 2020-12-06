@@ -22,10 +22,15 @@
      color:#0B2D5C;
      font-family: 'Bebas Neue';
      font-size: 60px;
-     text-align: center;
+
+     padding-left: 30px;
  }
  p{
      padding-top: 35px;
      font-family: 'Montserrat';
+     padding-left: 30px;
+     color: #0b2d5c;
  }
- 
+ span{
+     padding-left: 30px;
+ }
