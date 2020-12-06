@@ -1,0 +1,32 @@
+.service{
+    color: #fff;
+}
+.centre
+{
+    text-align: center!important;
+}
+.organic-radius{
+    border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%;
+}
+.step .step-shape {
+    display: inline-flex;
+    width: 7rem;
+    height: 7rem;
+    text-align: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+}
+.shape-light {
+    background-color: #e6e7e8;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+.icon-primary span {
+    color:red;
+}
