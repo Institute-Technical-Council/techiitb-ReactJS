@@ -8,6 +8,9 @@ import itc from "../assets/itcwhite.png"
 import techteams from '../techteams';
 import clubs from '../clubs';
 import blogs from "../blogs";
+import Services from './Service';
+import CounterContainer from './CounterContainer';
+import LatestEvents from './LatestEvents';
 
 class App extends React.Component {
     
@@ -15,13 +18,20 @@ class App extends React.Component {
         return (
         <div>
              
-            <CarouselHome /> 
+             <CarouselHome />
             <section>
-            <CardGroup title = "Technical Teams" group = {techteams} />
+                <LatestEvents heading="Upcoming Events"/>
             </section>
-            <CardGroup title = "Clubs" group = {clubs}/>
-            <CardGroup title = "Blogs" group ={blogs}/>
-
+            <section>
+                <Services heading="Our services" subheading="These are our services provided to IITB community"/>
+            </section>
+            <section>
+                <CounterContainer heading="Some numbers" subheading="These are some numbers which describe us"/>
+            </section>
+            <section>
+                <CardGroup title = "Technical Teams" group = {techteams} />
+            </section>
+                <CardGroup title = "Clubs" group = {clubs}/>
             
             <Footer />
         </div>
