@@ -9,6 +9,7 @@ import techteams from '../techteams';
 import clubs from '../clubs';
 import Services from './Service';
 import CounterContainer from './CounterContainer';
+import LatestEvents from './LatestEvents';
 
 class App extends React.Component {
     
@@ -17,6 +18,9 @@ class App extends React.Component {
         <div>
              
             <CarouselHome />
+            <section>
+                <LatestEvents heading="Upcoming Events"/>
+            </section>
             <section>
                 <Services heading="Our services" subheading="These are our services provided to IITB community"/>
             </section>
