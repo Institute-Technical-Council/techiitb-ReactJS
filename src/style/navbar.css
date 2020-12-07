@@ -1,11 +1,10 @@
 .bg-blue {
-    background-color:#0b2d5c;
+    background-color:#0B2D5C;
     opacity: 100;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
-    text-transform: uppercase;
     font-weight: 300;
 }
 
@@ -25,4 +24,11 @@
   left: 0;
   position: absolute;
   width: 100%;
+  position: fixed;
+  z-index: 16;
+  box-shadow: 1px 1px 16px rgb(0, 0, 0);
+}
+.nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
 }

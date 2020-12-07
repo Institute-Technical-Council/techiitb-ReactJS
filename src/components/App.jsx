@@ -33,7 +33,7 @@ class App extends React.Component {
             </section>
                 <CardGroup title = "Clubs" group = {clubs}/>
             
-            <Footer />
+            {/*<Footer />*/}
         </div>
         )
         }

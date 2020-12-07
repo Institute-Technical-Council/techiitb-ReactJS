@@ -21,11 +21,18 @@
  .events .display-4{
     padding: 20px;
  }
+.y {
+     font-size: 110px;
+     color:#0B2D5C;
+     font-family: 'Bebas Neue';
+     font-size: 110px;
+     text-align: center;
+ }
  h3
  {
      color:#0B2D5C;
      font-family: 'Bebas Neue';
-     font-size: 40px;
+     font-size: 70px;
      padding-left: 30px;
  }
  p{
@@ -33,9 +40,15 @@
      font-family: 'Montserrat';
      padding-left: 30px;
      color: #0b2d5c;
+     font-size: 20px;
+     line-height: 30px;
  }
  span{
      padding-left: 30px;
+ }
+
+ .img-class {
+     width: 500px;
  }
 .date-conetiner{
     padding-top: 35px;
@@ -51,14 +64,19 @@
 .date {
     float: left;
     font-weight: 800;
-    color:#0B2D5C
+    color:#0B2D5C;
+    font-size: 25px;
+    line-height: 30px;
 }
 .register{
     padding-top: 100px;
     padding-left: 30px;
 }
 .register .latest-event{
-    width: 170px;
+    width: 264px;
+    height: 52px;
     color:#fff;
+    border: 0cm;
+    font-size: 25px;
     background:linear-gradient(to right,#0B2D5C, #1460c9);
 }

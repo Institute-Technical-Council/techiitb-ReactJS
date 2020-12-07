@@ -24,4 +24,14 @@ const latest_events = [
     },
 ];
 
+console.log("Accessed")
+
+var img = new Image();
+
+img.src = "https://scontent.fbom3-2.fna.fbcdn.net/v/t1.0-9/123426042_3793850210627895_2758146832040547858_n.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=rVP9Xdntvc4AX_vOYn9&_nc_ht=scontent.fbom3-2.fna&oh=1ad80ef748d4effb618ebd5faf8298ca&oe=5FF23223";
+
+console.log(img.height);
+
+console.log(img.width);
+
 export default latest_events;

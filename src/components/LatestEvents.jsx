@@ -7,15 +7,16 @@ function LatestEvents(props){
     return(
     <div className="container-fluid">
         <div className="events">
-        <h1 className= "display-4" style = {{color: "#0B2D5C" ,fontFamily: 'Bebas Neue', textAlign: 'center'}}> {heading}</h1>
+        <h1 className= "display-4 y"> {heading}</h1>
         <div className="row">
             <div id="latest-event" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                 { latest_events.map(item=>(
+                    
                     <div className={"carousel-item"+item.class} key={item.id}>
                         <div className="row">
-                        <div className="col-md-6">
-                            <img className="d-block w-100" src={item.image} alt={item.name} />
+                        <div className="col-md-5 img-class" style = {{width: '600px'}}>
+                            <img className="d-block w-100"  style = {{width: '600px'}} src={item.image} alt={item.name} />
                         </div>
                         <div className="col-md-6">
                             <h3>{item.name}</h3>
