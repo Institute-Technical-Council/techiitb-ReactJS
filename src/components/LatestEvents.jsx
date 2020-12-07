@@ -20,12 +20,14 @@ function LatestEvents(props){
                         <div className="col-md-6">
                             <h3>{item.name}</h3>
                             <p>{item.description}</p>
-                            <div className="calendar">
-                                <span className="fa fa-calendar"></span>
-                            </div>
-                            <div className="date">
-                                {item.date} <br/>
-                                {item.time}
+                            <div className="date-conetiner">
+                                <div className="calendar">
+                                    <span className="far fa-calendar-alt"></span>
+                                </div>
+                                <div className="date">
+                                    {item.date} <br/>
+                                    {item.time}
+                                </div>
                             </div>
                             <div className="register">
                                 <a className="btn btn-secondary  latest-event" href={item.register_link}>Register</a>
