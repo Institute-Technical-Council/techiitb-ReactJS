@@ -7,6 +7,7 @@ import NavBar from "./NavBar";
 import itc from "../assets/itcwhite.png"
 import techteams from '../techteams';
 import clubs from '../clubs';
+import blogs from "../blogs";
 import Services from './Service';
 import CounterContainer from './CounterContainer';
 import LatestEvents from './LatestEvents';
@@ -17,7 +18,7 @@ class App extends React.Component {
         return (
         <div>
              
-            <CarouselHome />
+             <CarouselHome />
             <section>
                 <LatestEvents heading="Upcoming Events"/>
             </section>
