@@ -7,7 +7,7 @@ function NavBar(props) {
     var logo_src = props.logo_src;
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-blue">
-            <div className="container">
+            <div className="container-fluid">
                 <a className="navbar-brand" href="#"><img className="logo" src={logo_src} /></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -31,6 +31,7 @@ function NavBar(props) {
                                     );
                                 }
                             })}
+                            {/*
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Dropdown
@@ -41,6 +42,7 @@ function NavBar(props) {
                                     <a className="dropdown-item" href="#">Something else here</a>
                                 </div>
                             </li>
+                            */}
                         </ul>
                     </div>
                 </div>

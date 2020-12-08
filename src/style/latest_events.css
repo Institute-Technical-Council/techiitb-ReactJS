@@ -1,0 +1,82 @@
+.events {
+    padding: 100px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border:1px #0B2D5C solid;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators li {
+    background-color:#232222;
+   /* background-color: aqua;*/
+ }
+ .carousel-indicators .active {
+    /*background-color: black;*/
+    background-color:#0B2D5C; 
+ }
+ .events .display-4{
+    padding: 20px;
+ }
+.y {
+     font-size: 110px;
+     color:#0B2D5C;
+     font-family: 'Bebas Neue';
+     font-size: 110px;
+     text-align: center;
+ }
+ h3
+ {
+     color:#0B2D5C;
+     font-family: 'Bebas Neue';
+     font-size: 70px;
+     padding-left: 30px;
+ }
+ p{
+     padding-top: 35px;
+     font-family: 'Montserrat';
+     padding-left: 30px;
+     color: #0b2d5c;
+     font-size: 20px;
+     line-height: 30px;
+ }
+ span{
+     padding-left: 30px;
+ }
+
+ .img-class {
+     width: 500px;
+ }
+.date-conetiner{
+    padding-top: 35px;
+}
+ .calendar{
+    padding-right: 10px;
+    float: left;
+ }
+ .calendar span {
+     font-size: 44px;
+     color:#0B2D5C
+ }
+.date {
+    float: left;
+    font-weight: 800;
+    color:#0B2D5C;
+    font-size: 25px;
+    line-height: 30px;
+}
+.register{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.register .latest-event{
+    width: 264px;
+    height: 52px;
+    color:#fff;
+    border: 0cm;
+    font-size: 25px;
+    background:linear-gradient(to right,#0B2D5C, #1460c9);
+}
