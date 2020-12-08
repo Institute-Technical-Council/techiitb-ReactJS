@@ -15,7 +15,7 @@ function CarouselHome() {
                     {data.map(item => (
 
                         <Carousel.Item>
-                        <NavBar nav_items={["Home","Documentations","Hall of Fame"]} present={"Hall of Fame"} logo_src={itc}/>
+                        <NavBar nav_items={["Home","Events","Certificates", "Blogs", "Clubs", "Tech Teams", "IITB Corner", "Documentations", "Team 2020-21"]} present={"Hall of Fame"} logo_src={itc}/>
                             <img
                                 className="d-block carousel-img"
                                 style = {{opacity : "100%"}}
