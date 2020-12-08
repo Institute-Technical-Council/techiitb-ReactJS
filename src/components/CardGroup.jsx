@@ -1,6 +1,8 @@
 import React from "react";
-// import techteams from "../techteams";
-// import clubs from "../clubs";
+
+import techteams from "../techteams";
+import clubs from "../clubs";
+import blogs from "../blogs"
 import Card from "./Card";
 import { ParallaxProvider, Parallax } from "react-skrollr";
 
