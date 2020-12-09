@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Footer from "./Footer";
+
 import CarouselHome from "./Carousel";
-import CardGroup from "./CardGroup"
+import CardGroup from "./CardGroup";
 import NavBar from "./NavBar";
 import itc from "../assets/itcwhite.png"
 import techteams from '../techteams';
@@ -11,6 +11,9 @@ import blogs from "../blogs";
 import Services from './Service';
 import CounterContainer from './CounterContainer';
 import LatestEvents from './LatestEvents';
+import FinalFooter from "./FinalFooter";
+import BlogCardsGroup from "./BlogsCardsGroup";
+
 
 class App extends React.Component {
     
@@ -31,9 +34,16 @@ class App extends React.Component {
             <section>
                 <CardGroup title = "Technical Teams" group = {techteams} />
             </section>
+            <section>
                 <CardGroup title = "Clubs" group = {clubs}/>
+            </section>
+            <section>
+                <BlogCardsGroup title ="Blogs" group ={blogs}/>
+            </section>
+
+
             
-            {/*<Footer />*/}
+            {<FinalFooter />}
         </div>
         )
         }
