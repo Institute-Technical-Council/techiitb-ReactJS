@@ -1,0 +1,36 @@
+.footer {
+    background-color: #ffffff;;
+    display: flex;
+    justify-content: center;
+    color: #0B2D5C;
+
+
+    font-weight: 200;
+    height: auto;
+    padding: 1%;
+    font-family: 'Bebas Neue';
+}
+.group4 {
+    padding: 20px;
+}
+
+.group3 {
+    text-align: left;
+    position: relative;
+
+    top: 300px;
+    right: 330px;
+    font-family: 'Montserrat';
+}
+
+.group2 {
+    padding: 20px;
+}
+
+.group1{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+
+
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Footer from "./Footer";
+
 import CarouselHome from "./Carousel";
-import CardGroup from "./CardGroup"
+import CardGroup from "./CardGroup";
 import NavBar from "./NavBar";
 import itc from "../assets/itcwhite.png"
 import techteams from '../techteams';
@@ -11,9 +11,16 @@ import blogs from "../blogs";
 import Services from './Service';
 import CounterContainer from './CounterContainer';
 import LatestEvents from './LatestEvents';
+
+import FinalFooter from "./FinalFooter";
+import BlogCardsGroup from "./BlogsCardsGroup";
+
+
+
 import BarGraph from './BarGraphTechCup';
 import Pie from './PieChart';
 import FooterTechCup from './FooterTech';
+
 class App extends React.Component {
     
     render () {
@@ -39,11 +46,23 @@ class App extends React.Component {
             <section>
                 <CardGroup title = "Technical Teams" group = {techteams} />
             </section>
+            <section>
                 <CardGroup title = "Clubs" group = {clubs}/>
+
+            </section>
+            <section>
+                <BlogCardsGroup title ="Blogs" group ={blogs}/>
+            </section>
+
+
+            
+            {<FinalFooter />}
+
             <section>
             <FooterTechCup />
             </section>
             {/*<Footer />*/}
+
         </div>
         )
         }
