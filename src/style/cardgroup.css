@@ -1,11 +1,3 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-/* ----------------------------------------------------------------------- */
-/* Cards for technical teams */
-
 .card-container {
     display: grid;
     perspective: 700px;
@@ -60,50 +52,10 @@ border-radius: 3rem!important;
     border-radius: 1rem!important;
     }
 
-.jumbotron{
-    background-color : "#0B2D5C";
-}
+
 /* Heading */
-.display-4{
+h1{
     color: "white" ;
     font-family: 'Bebas Neue';
-    text-align: 'center'
+    text-align: 'center';
 }
-/* ------------------------------------------------------------ */
-
-@keyframes example {
-    from {opacity: 0;}
-    to {opacity:100;}
-  }
-  
-  /* The element to apply the animation to */
-  .animation {
-    /* width: 100px; */
-    /* height: 100px; */
-    /* background-color: red; */
-    animation-name: example;
-    animation-duration: 4s;
-    
-  }
-  .size{
-   
-    
-    font-size:6vw;
-    font-weight: bold;
-    text-align: center;
-  }
-  /* .size:hover{
-      animation-name: enlarge;
-      animation-duration: 2s;  
-  }
-
-  @keyframes enlarge {
-    from {font-size: 6vw;}
-    to {font-size: 8vw;}
-  } */
-
-  .carousel-img{
-    width:100%;
-    height:100vh;
-    object-fit:cover;
-  }

@@ -11,7 +11,9 @@ import blogs from "../blogs";
 import Services from './Service';
 import CounterContainer from './CounterContainer';
 import LatestEvents from './LatestEvents';
-
+import BarGraph from './BarGraphTechCup';
+import Pie from './PieChart';
+import FooterTechCup from './FooterTech';
 class App extends React.Component {
     
     render () {
@@ -19,6 +21,12 @@ class App extends React.Component {
         <div>
              
              <CarouselHome />
+             <section>
+                 <BarGraph />
+             </section>
+             <section>
+                 <Pie />
+             </section>
             <section>
                 <LatestEvents heading="Upcoming Events"/>
             </section>
@@ -32,7 +40,9 @@ class App extends React.Component {
                 <CardGroup title = "Technical Teams" group = {techteams} />
             </section>
                 <CardGroup title = "Clubs" group = {clubs}/>
-            
+            <section>
+            <FooterTechCup />
+            </section>
             {/*<Footer />*/}
         </div>
         )
