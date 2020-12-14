@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/navbar.css';
-
+import {Link} from 'react-router-dom';
 function NavBar(props) {
     var present_item = props.present;
     var nav_items = props.nav_items;
@@ -19,14 +19,14 @@ function NavBar(props) {
                                 if (nav_item == present_item) {
                                     return (
                                         <li className="nav-item active1">
-                                            <a className="nav-link" href="#">{nav_item}</a>
+                                            <Link className="nav-link" to={nav_item.replace(/ /g,'').toLowerCase()}>{nav_item}</Link>
                                         </li>
                                     );
                                 }
                                 else {
                                     return (
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#">{nav_item}</a>
+                                            <Link className="nav-link" to={nav_item.replace(/ /g,'').toLowerCase()}>{nav_item}</Link>
                                         </li>
                                     );
                                 }
