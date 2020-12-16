@@ -23,11 +23,18 @@ h2 {
     
 }
 
+.carousel-img {
+    border-radius: 0;
+}
+.carousel-margins {
+    margin-top: -58px;
+}
+
 .inside-image {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
-    padding-left: 768.82px;
-    
+    padding-left:882px;
+    height: 768.82px;
 }
 

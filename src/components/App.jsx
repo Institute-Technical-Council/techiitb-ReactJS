@@ -55,12 +55,15 @@ class App extends React.Component {
 const Home = () => (
     <div>
                  <CarouselHome />
+                 <LatestEvents heading={"Upcoming Events"} />
+            {/*
              <section>
                 <Services heading="Our services" subheading="These are our services provided to IITB community"/>
             </section>
             <section>
                 <CounterContainer heading="Some numbers" subheading="These are some numbers which describe us"/>
             </section>
+            */}
             {/* <section>
                 <BlogCardsGroup title ="Blogs" group ={blogs}/>
             </section> */}

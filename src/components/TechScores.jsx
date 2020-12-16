@@ -1,10 +1,11 @@
 import React from 'react';
 import BarGraph from './BarGraphTechCup';
 import Pie from './PieChart';
+import '../style/techcup.css'
 
 function TechScores() {
     return (
-        <div>
+        <div className="techcup">
 <section>
 <BarGraph />
 </section>

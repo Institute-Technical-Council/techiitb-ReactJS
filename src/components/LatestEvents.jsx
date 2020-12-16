@@ -15,8 +15,8 @@ function LatestEvents(props){
                     
                     <div className={"carousel-item"+item.class} key={item.id}>
                         <div className="row">
-                        <div className="col-md-5 img-class" style = {{width: '600px'}}>
-                            <img className="d-block w-100"  style = {{width: '600px'}} src={item.image} alt={item.name} />
+                        <div className="col-md-5">
+                            <img className="d-block img-class" src={item.image} alt={item.name} />
                         </div>
                         <div className="col-md-6">
                             <h3>{item.name}</h3>

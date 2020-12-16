@@ -9,7 +9,7 @@ import itc from "../assets/itcwhite.png"
 
 function CarouselHome() {
     return (
-            <div >
+            <div className="carousel-margins">
                 <Carousel interval={2000}>
                 
                     {data.map(item => (

@@ -17,7 +17,7 @@ function FooterTechCup(){
             <img src = {yt}>
             </img>
         </div>
-        <p style = {{color:"white",fontSize:"1rem",fontWeight:"bold"}}> 2020-21 All Rights Reserved. Designed by Institute Technical Council, IIT Bombay</p>
+        <p style = {{color:"white",fontSize:"1rem",fontWeight:"bold"}}> 2020-21 All Rights Reserved.<br/> Designed and Developed with &hearts; by Institute Technical Council, IIT Bombay</p>
 
         </div>
     )
