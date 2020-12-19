@@ -9,7 +9,7 @@ function Group1(props) {
     var objects = props.content;
     return (
         <div className="group1">
-            <img src={blueitclogo} width={"300"}/>
+            <img src={blueitclogo} width={"500"}/>
 
 
 
@@ -35,11 +35,10 @@ function Group3(props) {
     return (
         <div className="group3">
             <div className="row">
-                <div className="col">
-                    <img src={social} width={"100"}/><br/>
+                <div className="col centre-stuff">
+                    <img src={social} /><br/>
 
-                    <b>  © 2021 Rights Reserved. Designed by Institute Technical Council, IIT BOMBAY</b><br/>
-                    <b> Email at itcwebteamiitb@gmail.com</b>
+                    <p style = {{color:"#0B2D5C",fontSize:"1rem",fontWeight:"bold"}}> 2020-21 All Rights Reserved.<br/> Designed and Developed with &hearts; by Institute Technical Council, IIT Bombay</p>
 
 
 

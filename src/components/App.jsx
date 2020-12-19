@@ -14,6 +14,7 @@ import LatestEvents from './LatestEvents';
 
 import FinalFooter from "./FinalFooter";
 import BlogCardsGroup from "./BlogsCardsGroup";
+import ComingSoon from "react-coming-soon";
 
 
 
@@ -36,15 +37,18 @@ class App extends React.Component {
         <NavBar nav_items={["Home","Events","Certificates", "Blogs", "Clubs", "Tech Teams", "Tech Cup","IITB Corner", "Documentations", "Team 2020-21"]} present={"Hall of Fame"} logo_src={itc}/>
             <Switch>
              <Route path = '/' exact component = {Home}/>
+             <Route path = '/home' exact component = {Home}/>
              <Route path = '/techcup' component = {TechScores} />
              <Route path='/events' render={(props) => ( <LatestEvents {...props} heading="Upcoming Events" /> )}/>
              <Route path='/techteams' render={(props) => ( <CardGroup {...props} title="Technical Teams" group = {techteams} /> )}/>
              <Route path='/clubs' render={(props) => ( <CardGroup {...props} title="Clubs" group = {clubs} /> )}/>
              <Route path='/blogs' render={(props) => ( <BlogCardsGroup {...props} title="Blogs" group = {blogs} /> )}/>
+             
             </Switch>
-            {/* {<FinalFooter />} */}
+            
             <section>
-            <FooterTechCup />
+            {/*<FooterTechCup />*/}
+            <FinalFooter />
             </section>
         </div>
         </Router>

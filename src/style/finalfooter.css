@@ -15,11 +15,8 @@
 }
 
 .group3 {
-    text-align: left;
+    text-align: centre;
     position: relative;
-
-    top: 300px;
-    right: 330px;
     font-family: 'Montserrat';
 }
 
@@ -33,4 +30,9 @@
     font-size: 40px;
 
 
+}
+.centre-stuff {
+    text-align: center;
+    display:flex;
+    justify-content: center;
 }

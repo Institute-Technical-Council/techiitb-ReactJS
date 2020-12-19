@@ -11,21 +11,19 @@ function FinalFooter(props) {
     return (
         <div className="container-fluid">
             <div className="row footer">
-                <div className="col-md-3 sm-3">
-
-                </div>
+                
                 <div className="col-md-3 sm-3">
                     <Group1 heading={heading_of_group1} content={content_of_group1} />
                 </div>
-
                 <div className="col-md-3 sm-3">
-                    <div className="row">
-                        <Group3 />
-                    </div>
+                    
                     <div className="row">
                         <Group4 heading={heading_of_group4} content={content_of_group4} />
                     </div>
                 </div>
+            </div>
+            <div className="row centre-stuff">
+                <Group3 />
             </div>
         </div>
     )
