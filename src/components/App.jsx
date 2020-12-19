@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Team2020 from '../team2020';
 
 import CarouselHome from "./Carousel";
 import CardGroup from "./CardGroup";
@@ -35,11 +35,12 @@ class App extends React.Component {
         return (
             <Router>
         <div>
-        <NavBar nav_items={["Home","Events","Certificates", "Blogs", "Clubs", "Tech Teams", "Tech Cup","IITB Corner", "Documentations", "Team 2020-21"]} present={"Hall of Fame"} logo_src={itc}/>
+        <NavBar nav_items={["Home","Events","Certificates", "Blogs", "Tech Cup", "Documentations", "Team 2020-21"]} present={"Hall of Fame"} logo_src={itc}/>
             <Switch>
              <Route path = '/' exact component = {Home}/>
              <Route path = '/home' exact component = {Home}/>
              <Route path = '/techcup' component = {TechScores} />
+             <Route path = '/team2020-21' component = {Team2020} />
              <Route path='/events' render={(props) => ( <LatestEvents {...props} heading="Upcoming Events" /> )}/>
              <Route path='/techteams' render={(props) => ( <CardGroup {...props} title="Technical Teams" group = {techteams} /> )}/>
              <Route path='/clubs' render={(props) => ( <CardGroup {...props} title="Clubs" group = {clubs} /> )}/>
@@ -50,7 +51,9 @@ class App extends React.Component {
             
             <section>
             {/*<FooterTechCup />*/}
+
             <FinalFooter />
+            <Team2020/>
             </section>
         </div>
         </Router>
@@ -62,6 +65,9 @@ const Home = () => (
     <div>
                  <CarouselHome />
                  <LatestEvents heading={"Upcoming Events"} />
+                 <CardGroup title="Clubs" group={clubs}/>
+            <BlogCardsGroup title="Blogs" group={blogs}/>
+            <CardGroup title="Technical Teams" group = {techteams}/>
             {/*
              <section>
                 <Services heading="Our services" subheading="These are our services provided to IITB community"/>

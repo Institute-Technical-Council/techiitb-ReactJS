@@ -10,7 +10,7 @@ let itemList=[];
 items.forEach((item,index)=>{
   itemList.push( <li key={index}>{item}</li>)
 })
-function team2020() {
+function Team2020() {
 
   return (
       <div>
@@ -25,4 +25,4 @@ function team2020() {
   );
 }
 
-export default team2020;
+export default Team2020;
