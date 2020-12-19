@@ -25,6 +25,7 @@ import FooterTechCup from './FooterTech';
 
 
 
+
 // React Routing
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -43,6 +44,7 @@ class App extends React.Component {
              <Route path='/techteams' render={(props) => ( <CardGroup {...props} title="Technical Teams" group = {techteams} /> )}/>
              <Route path='/clubs' render={(props) => ( <CardGroup {...props} title="Clubs" group = {clubs} /> )}/>
              <Route path='/blogs' render={(props) => ( <BlogCardsGroup {...props} title="Blogs" group = {blogs} /> )}/>
+
              
             </Switch>
             
