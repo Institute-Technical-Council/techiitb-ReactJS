@@ -1,7 +1,7 @@
 import React from 'react';
-import gsta from "./gsta";
-import team2 from "./team2";
-import team3 from "./team3";
+import Gsta from "./Gsta";
+import Team2 from "./Team2";
+import Team3 from "./Team3";
 
 import teamgsta from '../teamgsta';
 import team_2 from '../team_2';
@@ -14,17 +14,17 @@ function Team2020() {
       <div>
         {
           teamgsta.map(item =>(
-            <gsta img={item.img} heading={item.heading} subheading={item.subheading}/>
+            <Gsta img={item.img} heading={item.heading} subheading={item.subheading}/>
           ))
         }
         {
         team_2.map(item =>(
-          <team2 img={item.img} heading={item.heading} subheading={item.subheading}/>
+          <Team2 img={item.img} heading={item.heading} subheading={item.subheading}/>
         ))
         }
         {
         team_3.map(item =>(
-          <team3 img={item.img} heading={item.heading} subheading={item.subheading}/>
+          <Team3 img={item.img} heading={item.heading} subheading={item.subheading}/>
         ))
         }
       </div>

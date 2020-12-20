@@ -1,7 +1,7 @@
-import React from "react";
-import team_3 from '../team_3'
+import React from 'react';
+import teamgsta from '../teamgsta'
 
-function team3(props){
+function Gsta(props) {
     return (
             <div className="col-md-4 col-lg-3 card-container" style={{textAlign: "center" ,padding: "30px" }}>
 
@@ -23,4 +23,5 @@ function team3(props){
 
     )
 }
-export default team3
+
+export default Gsta;
