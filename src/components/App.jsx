@@ -1,5 +1,5 @@
 import React from 'react';
-import Team2020 from '../team2020';
+
 
 import CarouselHome from "./Carousel";
 import CardGroup from "./CardGroup";
@@ -11,6 +11,7 @@ import blogs from "../blogs";
 import Services from './Service';
 import CounterContainer from './CounterContainer';
 import LatestEvents from './LatestEvents';
+import Team2020 from './Team2020'
 
 import FinalFooter from "./FinalFooter";
 import BlogCardsGroup from "./BlogsCardsGroup";
@@ -26,9 +27,10 @@ import FooterTechCup from './FooterTech';
 
 
 
+
 // React Routing
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import team2020final from "./team2020final";
+
 
 class App extends React.Component {
     
@@ -41,7 +43,7 @@ class App extends React.Component {
              <Route path = '/' exact component = {Home}/>
              <Route path = '/home' exact component = {Home}/>
              <Route path = '/techcup' component = {TechScores} />
-             <Route path = '/team2020-21' component = {team2020final} />
+             <Route path = '/team2020-21' component = {Team2020} />
              <Route path='/events' render={(props) => ( <LatestEvents {...props} heading="Upcoming Events" /> )}/>
              <Route path='/techteams' render={(props) => ( <CardGroup {...props} title="Technical Teams" group = {techteams} /> )}/>
              <Route path='/clubs' render={(props) => ( <CardGroup {...props} title="Clubs" group = {clubs} /> )}/>
