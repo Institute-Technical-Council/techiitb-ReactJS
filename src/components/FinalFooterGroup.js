@@ -9,7 +9,7 @@ function Group1(props) {
     var objects = props.content;
     return (
         <div className="group1">
-            <img src={blueitclogo} width={"500"}/>
+            <img src={blueitclogo} width={"200"} height={"400"}/>
 
 
 

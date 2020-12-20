@@ -96,3 +96,4 @@ const team_3 = [
     },
 
 ];
+export default team_3;
