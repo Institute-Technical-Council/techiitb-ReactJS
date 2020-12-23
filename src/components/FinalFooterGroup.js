@@ -1,7 +1,11 @@
 import React from 'react';
 import '../style/finalfooter.css';
 import blueitclogo from '../assets/finalfooter/blueitclogo.JPG';
-import social from '../assets/finalfooter/social.JPG'
+import fb from '../assets/finalfooter/fb.png';
+import ig from '../assets/finalfooter/ig.jpeg';
+import yt from '../assets/finalfooter/yt.png';
+import yt2 from '../assets/finalfooter/yt2.png';
+import SearchField from "react-search-field";
 
 
 function Group1(props) {
@@ -9,13 +13,19 @@ function Group1(props) {
     var objects = props.content;
     return (
         <div className="group1">
-            <img src={blueitclogo} width={"200"} height={"400"}/>
+            <img src={blueitclogo} width={"180"} height={"90"}/>
+
+
+
+
 
 
 
             {objects.map(function (object, i) {
                 return (
                     <div className="row">
+
+
 
 
                             {object}
@@ -36,9 +46,21 @@ function Group3(props) {
         <div className="group3">
             <div className="row">
                 <div className="col centre-stuff">
-                    <img src={social} /><br/>
 
-                    <p style = {{color:"#0B2D5C",fontSize:"1rem",fontWeight:"bold"}}> 2020-21 All Rights Reserved.<br/> Designed and Developed with &hearts; by Institute Technical Council, IIT Bombay</p>
+
+
+
+
+
+
+                    <p style = {{color:"#0B2D5C",fontSize:"1rem",fontWeight:"bold"}}><SearchField
+  placeholder="Write an email"
+
+  searchText="Write an email"
+  classNames="test-class"
+/><br/> <a href={"#"}> <img src={fb} width={"50"} height={"40"}/></a>
+                    <a href={"#"}> <img src={ig} width={"55"} height={"50"}/></a>
+                        <a href={"#"}> <img src={yt2} width={"45"} height={"5"}/></a><br/>©2020-21 All Rights Reserved.<br/> Designed and Developed with &hearts; by Institute Technical Council, IIT Bombay</p>
 
 
 

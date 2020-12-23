@@ -11,7 +11,7 @@ import blogs from "../blogs";
 import Services from './Service';
 import CounterContainer from './CounterContainer';
 import LatestEvents from './LatestEvents';
-import Team2020 from './Team2020'
+
 
 import FinalFooter from "./FinalFooter";
 import BlogCardsGroup from "./BlogsCardsGroup";
@@ -43,7 +43,7 @@ class App extends React.Component {
              <Route path = '/' exact component = {Home}/>
              <Route path = '/home' exact component = {Home}/>
              <Route path = '/techcup' component = {TechScores} />
-             <Route path = '/team2020-21' component = {Team2020} />
+
              <Route path='/events' render={(props) => ( <LatestEvents {...props} heading="Upcoming Events" /> )}/>
              <Route path='/techteams' render={(props) => ( <CardGroup {...props} title="Technical Teams" group = {techteams} /> )}/>
              <Route path='/clubs' render={(props) => ( <CardGroup {...props} title="Clubs" group = {clubs} /> )}/>
@@ -56,7 +56,7 @@ class App extends React.Component {
             {/*<FooterTechCup />*/}
 
             <FinalFooter />
-            <Team2020/>
+
             </section>
         </div>
         </Router>
