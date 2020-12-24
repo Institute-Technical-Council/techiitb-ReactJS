@@ -11,7 +11,7 @@ import { ParallaxProvider, Parallax } from "react-skrollr";
 
 const data = {
     "data-center-top": "padding: 100px;",
-    "data-top-top": "padding: 2px;",
+    "data-top-top": "padding: 6px;",
     "data-bottom-bottom": "padding: 2px;",
     "data-center-bottom": "padding: 100px;"
   };
@@ -36,6 +36,7 @@ function BlogCardsGroup(props){
                         subheading={team.subheading}
                         description={team.description}
                         img={team.img} />
+
                 ))}
 
             </div>
