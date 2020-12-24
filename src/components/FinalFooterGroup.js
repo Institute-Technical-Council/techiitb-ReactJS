@@ -3,7 +3,7 @@ import '../style/finalfooter.css';
 import blueitclogo from '../assets/finalfooter/blueitclogo.JPG';
 import fb from '../assets/finalfooter/fb.png';
 import ig from '../assets/finalfooter/ig.jpeg';
-import yt from '../assets/finalfooter/yt.png';
+
 import yt2 from '../assets/finalfooter/yt2.png';
 import SearchField from "react-search-field";
 
@@ -13,7 +13,7 @@ function Group1(props) {
     var objects = props.content;
     return (
         <div className="group1">
-            <img src={blueitclogo} width={"180"} height={"90"}/>
+            <img src={blueitclogo} width={"100"} height={"90"}/>
 
 
 
@@ -60,7 +60,7 @@ function Group3(props) {
   classNames="test-class"
 /><br/> <a href={"#"}> <img src={fb} width={"50"} height={"40"}/></a>
                     <a href={"#"}> <img src={ig} width={"55"} height={"50"}/></a>
-                        <a href={"#"}> <img src={yt2} width={"45"} height={"5"}/></a><br/>©2020-21 All Rights Reserved.<br/> Designed and Developed with &hearts; by Institute Technical Council, IIT Bombay</p>
+                        <a href={"#"}> <img src={yt2} width={"45"} height={"5"}/></a><br/>©2020-21 All Rights Reserved. Designed by Institute Technical Council, IIT BOMBAY</p>
 
 
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import blogs from '../style/blogs.css';
 
 function BlogCards(props) {
     return (
@@ -6,13 +7,16 @@ function BlogCards(props) {
                 {/* <div className="card-flip"> */}
 
                     <div className="card rounded-cards"  >
-                    <img src={props.img} class="card-img-top img-fluid" alt="..." style = {{padding: "-12px"}} />
-                        <hr></hr>
+
                         <div className="card-body" >
                             <h4 className="card-title">{props.heading}</h4>
 
                             <h6 className="card-text" >{props.subheading}
+                                <img src={props.img} className="card-img-top img-fluid" alt="..."
+                                     style={{padding: "-12px"}}/>
+                                <hr></hr>
                             </h6>
+                            <h6 className="card-text" >{props.description}</h6>
 
                         </div>
                     </div>
