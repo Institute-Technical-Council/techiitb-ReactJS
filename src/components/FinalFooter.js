@@ -2,10 +2,11 @@ import React from 'react';
 import '../style/finalfooter.css'
 import { Group1, Group3, Group4 } from '../components/FinalFooterGroup'
 import  blueitclogo from  '../assets/finalfooter/blueitclogo.JPG'
+import SearchField from "react-search-field";
 
 function FinalFooter(props) {
     var heading_of_group1 = "";
-    var content_of_group1 = ["LEARNING NEVER STOPS", "", "", ""];
+    var content_of_group1 = ["LEARNING NEVER STOPS"];
     var heading_of_group4 = "";
     var content_of_group4 = ["", "", ""];
     return (

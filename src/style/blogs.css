@@ -1,0 +1,87 @@
+.card-container {
+    display: grid;
+    perspective: 700px;
+    border-radius: 0px;
+}
+.card-flip, .card-container {
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+}
+
+.card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.back {
+    transform: rotateY(-180deg);
+}
+
+.card-container:hover .card-flip {
+    transform: rotateY(180deg);
+}
+
+.card-flip {
+    display: grid; grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack";
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+}
+
+.front {
+    grid-area: frontAndBack;
+
+}
+
+.back {
+    grid-area: frontAndBack;
+    transform: rotateY(-180deg);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    border-radius: 0px;
+    padding: 30px;
+
+
+    /* object-fit: cover; */
+}
+
+hr{
+   border-top: 2px;
+
+}
+.rounded{
+border-radius: 0px;
+
+}
+.rounded-cards{
+    border-radius: 0px;
+
+    }
+
+
+/* Heading */
+h1{
+    color: "white" ;
+    font-family: 'Bebas Neue';
+    text-align: 'center';
+    font-weight: lighter;
+}
+h6{
+    font-weight: normal;
+    color: #0b2d5c;
+}
+h4{
+    color: #0b2d5c;
+    font-weight: bolder;
+
+}
+h7{
+     color: #0b2d5c;
+    font-weight: normal;
+
+}
+
+

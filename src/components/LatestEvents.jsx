@@ -32,7 +32,7 @@ function LatestEvents(props){
                             </div>
                             <div className="register">
                                 <a className="btn btn-secondary  latest-event" href={item.register_link}>Register</a>
-                            </div>  
+                            </div>
                         </div>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Team2020 from '../team2020';
+
 
 import CarouselHome from "./Carousel";
 import CardGroup from "./CardGroup";
@@ -11,6 +11,8 @@ import blogs from "../blogs";
 import Services from './Service';
 import CounterContainer from './CounterContainer';
 import LatestEvents from './LatestEvents';
+import CertiMain from "./CertiMain";
+
 
 import FinalFooter from "./FinalFooter";
 import BlogCardsGroup from "./BlogsCardsGroup";
@@ -22,13 +24,16 @@ import BarGraph from './BarGraphTechCup';
 import Pie from './PieChart';
 import TechScores from './TechScores'
 import FooterTechCup from './FooterTech';
+import certi_main from "../certi_main";
+import CertiMainGroup from "./CertiMainGroup";
+
 
 
 
 
 // React Routing
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import team2020final from "./team2020final";
+
 
 class App extends React.Component {
     
@@ -40,12 +45,15 @@ class App extends React.Component {
             <Switch>
              <Route path = '/' exact component = {Home}/>
              <Route path = '/home' exact component = {Home}/>
+
+
              <Route path = '/techcup' component = {TechScores} />
-             <Route path = '/team2020-21' component = {team2020final} />
+
              <Route path='/events' render={(props) => ( <LatestEvents {...props} heading="Upcoming Events" /> )}/>
              <Route path='/techteams' render={(props) => ( <CardGroup {...props} title="Technical Teams" group = {techteams} /> )}/>
              <Route path='/clubs' render={(props) => ( <CardGroup {...props} title="Clubs" group = {clubs} /> )}/>
              <Route path='/blogs' render={(props) => ( <BlogCardsGroup {...props} title="Blogs" group = {blogs} /> )}/>
+             <Route path='/certificates' render={(props) => ( <CertiMainGroup {...props} title="Choose Your Event" group ={certi_main} /> )}/>
 
              
             </Switch>
@@ -54,7 +62,7 @@ class App extends React.Component {
             {/*<FooterTechCup />*/}
 
             <FinalFooter />
-            <Team2020/>
+
             </section>
         </div>
         </Router>
@@ -66,9 +74,12 @@ const Home = () => (
     <div>
                  <CarouselHome />
                  <LatestEvents heading={"Upcoming Events"} />
+
                  <CardGroup title="Clubs" group={clubs}/>
             <BlogCardsGroup title="Blogs" group={blogs}/>
             <CardGroup title="Technical Teams" group = {techteams}/>
+
+
             {/*
              <section>
                 <Services heading="Our services" subheading="These are our services provided to IITB community"/>
