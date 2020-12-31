@@ -33,6 +33,7 @@ import CertiMainGroup from "./CertiMainGroup";
 
 // React Routing
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import CertiThird from "./CertiThird";
 
 
 class App extends React.Component {
@@ -74,6 +75,7 @@ const Home = () => (
     <div>
                  <CarouselHome />
                  <LatestEvents heading={"Upcoming Events"} />
+
 
                  <CardGroup title="Clubs" group={clubs}/>
             <BlogCardsGroup title="Blogs" group={blogs}/>
