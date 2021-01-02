@@ -63,7 +63,7 @@ class App extends React.Component {
              <Route path='/techteams' render={(props) => ( <CardGroup {...props} title="Technical Teams" group = {techteams} /> )}/>
              <Route path='/clubs' render={(props) => ( <CardGroup {...props} title="Clubs" group = {clubs} /> )}/>
              <Route path='/blogs' render={(props) => ( <BlogCardsGroup {...props} title="Blogs" group = {this.state.blogs} /> )}/>
-             <Route path='/certificates' render={(props) => ( <CertiMainGroup {...props} title="Choose Your Event" group ={certi_main} /> )}/>             
+  
             </Switch>
             
             <section>
@@ -77,31 +77,4 @@ class App extends React.Component {
         )
         }
 }
-
-<<<<<<< HEAD
-const Home = () => (
-    <div>
-                 <CarouselHome />
-                 <LatestEvents heading={"Upcoming Events"} />
-
-                 <CardGroup title="Clubs" group={clubs}/>
-            <BlogCardsGroup title="Blogs" group={blogs}/>
-            <CardGroup title="Technical Teams" group = {techteams}/>
-
-
-            {/*
-             <section>
-                <Services heading="Our services" subheading="These are our services provided to IITB community"/>
-            </section>
-            <section>
-                <CounterContainer heading="Some numbers" subheading="These are some numbers which describe us"/>
-            </section>
-            */}
-            {/* <section>
-                <BlogCardsGroup title ="Blogs" group ={blogs}/>
-            </section> */}
-    </div>
-)
-=======
->>>>>>>  added blogs
 export default App;
