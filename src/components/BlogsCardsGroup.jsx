@@ -31,13 +31,12 @@ function BlogCardsGroup(props){
 
             <div className="row">
 
-                {props.group.map(team => (
+                {props.group.map(blog => (
                     <BlogCards
-                        heading={team.heading}
-                        subheading={team.subheading}
-                        description={team.description}
-                        img={team.img} />
-
+                        heading={blog.title}
+                        subheading={blog.author+"/"+blog.category}
+                        description={blog.short_description}
+                        img={blog.cover_img} />
                 ))}
 
             </div>

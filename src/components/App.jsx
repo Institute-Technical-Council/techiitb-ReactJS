@@ -7,7 +7,9 @@ import NavBar from "./NavBar";
 import itc from "../assets/itcwhite.png"
 import techteams from '../techteams';
 import clubs from '../clubs';
-import blogs from "../blogs";
+
+import axios from 'axios';
+
 import Services from './Service';
 import CounterContainer from './CounterContainer';
 import LatestEvents from './LatestEvents';
@@ -17,7 +19,7 @@ import CertiMain from "./CertiMain";
 import FinalFooter from "./FinalFooter";
 import BlogCardsGroup from "./BlogsCardsGroup";
 import ComingSoon from "react-coming-soon";
-
+import Home from "./Home";
 
 
 import BarGraph from './BarGraphTechCup';
@@ -36,7 +38,15 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 class App extends React.Component {
-    
+    state = {
+        blogs: []
+    }
+    componentDidMount() {
+            axios.get('http://localhost:8000/api/v1/blogs/')
+            .then(res=> {
+              this.setState({blogs : res.data})
+            })
+    }
     render () {
         return (
             <Router>
@@ -52,10 +62,8 @@ class App extends React.Component {
              <Route path='/events' render={(props) => ( <LatestEvents {...props} heading="Upcoming Events" /> )}/>
              <Route path='/techteams' render={(props) => ( <CardGroup {...props} title="Technical Teams" group = {techteams} /> )}/>
              <Route path='/clubs' render={(props) => ( <CardGroup {...props} title="Clubs" group = {clubs} /> )}/>
-             <Route path='/blogs' render={(props) => ( <BlogCardsGroup {...props} title="Blogs" group = {blogs} /> )}/>
-             <Route path='/certificates' render={(props) => ( <CertiMainGroup {...props} title="Choose Your Event" group ={certi_main} /> )}/>
-
-             
+             <Route path='/blogs' render={(props) => ( <BlogCardsGroup {...props} title="Blogs" group = {this.state.blogs} /> )}/>
+             <Route path='/certificates' render={(props) => ( <CertiMainGroup {...props} title="Choose Your Event" group ={certi_main} /> )}/>             
             </Switch>
             
             <section>
@@ -70,6 +78,7 @@ class App extends React.Component {
         }
 }
 
+<<<<<<< HEAD
 const Home = () => (
     <div>
                  <CarouselHome />
@@ -93,4 +102,6 @@ const Home = () => (
             </section> */}
     </div>
 )
+=======
+>>>>>>>  added blogs
 export default App;
