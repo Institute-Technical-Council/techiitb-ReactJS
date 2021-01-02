@@ -17,13 +17,7 @@ const data = {
   };
 function BlogCardsGroup(props){
     return(
-        <ParallaxProvider
-        init={{
-            smoothScrollingDuration: 1000,
-            smoothScrolling: true,
-            forceHeight: false
-          }}>
-         <Parallax data = {data}>
+       
         <div className="container-fluid">
         <div class = "jumbotron rounded" style = {{backgroundColor : "white"}} >
             <h1 class = "display-4" style = {{color: "#0B2D5C" ,fontFamily: 'Bebas Neue', textAlign: 'center'}}> {props.title}</h1>
@@ -43,8 +37,7 @@ function BlogCardsGroup(props){
             </div>
         </div>
         </div>
-        </Parallax>
-        </ParallaxProvider>
+       
     )
 }
 

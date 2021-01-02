@@ -46,16 +46,19 @@ hr{
    border-top: 2px solid #00003f; 
 }
 .rounded{
-border-radius: 3rem!important;
+border-radius: 2rem!important;
 }
 .rounded-cards{
     border-radius: 1rem!important;
     }
 
-
+.cardgroup {
+    padding: 125px;
+}
 /* Heading */
 h1{
     color: "white" ;
     font-family: 'Bebas Neue';
     text-align: 'center';
 }
+
