@@ -29,7 +29,7 @@ import FooterTechCup from './FooterTech';
 import certi_main from "../certi_main";
 import CertiMainGroup from "./CertiMainGroup";
 
-
+import AeroBlogs from './AeroBlogs'
 
 
 
@@ -63,13 +63,13 @@ class App extends React.Component {
              <Route path='/techteams' render={(props) => ( <CardGroup {...props} title="Technical Teams" group = {techteams} /> )}/>
              <Route path='/clubs' render={(props) => ( <CardGroup {...props} title="Clubs" group = {clubs} /> )}/>
              <Route path='/blogs' render={(props) => ( <BlogCardsGroup {...props} title="Blogs" group = {this.state.blogs} /> )}/>
-  
+             <Route path='/aero' component = {AeroBlogs}/>
             </Switch>
             
-            <section>
+            {/* <section> */}
             {/*<FooterTechCup />*/}
 
-                    </Switch>
+                    {/* </Switch> */}
 
                     <section>
                         {/*<FooterTechCup />*/}

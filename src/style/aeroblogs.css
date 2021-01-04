@@ -1,0 +1,27 @@
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: "white";
+}
+p{
+    padding: 0px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.background {
+    background-image: url("../assets/aero/blogbg.jpg");
+    background-size: 100% 100%;
+    
+}
+
+.card-img-top {
+    width: 100%;
+    padding: 0;
+    /* object-fit: cover; */
+}
+
