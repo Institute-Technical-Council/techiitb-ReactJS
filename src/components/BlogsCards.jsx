@@ -1,13 +1,13 @@
 import React from 'react';
-import blogs from '../style/blogs.css';
+import '../style/blogs.css';
 
 function BlogCards(props) {
     return (
             <div className="col-md-4 col-lg-3 card-container" style={{textAlign: "center" ,padding: "30px"}}>
                 {/* <div className="card-flip"> */}
-
-                    <div className="card rounded-cards"  >
-
+                    <a href={props.link}>
+                    <div className="card rounded-cards shadow-lg"  >
+                        
                         <div className="card-body" >
                             <h4 className="card-title">{props.heading}</h4>
 
@@ -21,6 +21,7 @@ function BlogCards(props) {
 
                         </div>
                     </div>
+                    </a>
                     {/* <div className="card back" >
                     <div className="card-body">
                             <h3 className="card-title">{props.heading}</h3>
