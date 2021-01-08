@@ -11,7 +11,7 @@ import team_3 from '../team_3';
 function Team2020() {
 
   return (
-      <div>
+      <div className="container">
         {
           teamgsta.map(item =>(
             <Gsta img={item.img} heading={item.heading} subheading={item.subheading}/>
