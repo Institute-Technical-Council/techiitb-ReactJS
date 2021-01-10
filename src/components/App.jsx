@@ -30,7 +30,7 @@ import certi_main from "../certi_main";
 import CertiMainGroup from "./CertiMainGroup";
 
 import AeroBlogs from './AeroBlogs'
-
+import IndividualBlog from './IndividualBlog'
 
 
 // React Routing
@@ -64,6 +64,7 @@ class App extends React.Component {
              <Route path='/clubs' render={(props) => ( <CardGroup {...props} title="Clubs" group = {clubs} /> )}/>
              <Route path='/blogs' render={(props) => ( <BlogCardsGroup {...props} title="Blogs" group = {this.state.blogs} /> )}/>
              <Route path='/aero' component = {AeroBlogs}/>
+             <Route path = '/individual' component = {IndividualBlog}></Route>
             </Switch>
             
             {/* <section> */}
