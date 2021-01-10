@@ -1,5 +1,5 @@
 import React from 'react';
-import Team2020 from '../team2020';
+// import Team2020 from '../team2020';
 
 import CarouselHome from "./Carousel";
 import CardGroup from "./CardGroup";

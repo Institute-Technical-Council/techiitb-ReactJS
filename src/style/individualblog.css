@@ -1,0 +1,75 @@
+.div{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .parent {
+    display: flex;
+    flex-flow: row wrap;
+} */
+
+.navigation {
+ padding-right: 0;
+}
+
+
+.blog {
+    /* flex: 5 */
+    background-image: url("../assets/indiblogs.jpeg");
+    background-size: 100% 100% 
+
+}
+
+img{
+    height: 200px;
+}
+
+.main{
+    margin: 10px auto;
+    background-color:white;
+    width: 60%;
+    text-align: center;
+    padding: 0;
+    border: 1px solid black;
+}
+@media screen and (max-width: 820px){
+    .main{
+        margin: 20px auto;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        border: 1px solid black;
+    }
+}
+
+.search{
+    padding: 30px 5px;
+    margin: auto;
+}
+.input-group-text{
+    background-color: white;
+    border-left: 0px;
+}
+
+.form-control{
+    border-right: 0px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+a{
+    /* margin-left: px; */
+    font-family: 'Montserrat', sans-serif;
+    color: "#0B2D5C";
+    font-size: 1.2rem;
+}
+.all{
+    text-align: center;
+}
+
+input{
+    font-family: 'Montserrat', sans-serif;
+}

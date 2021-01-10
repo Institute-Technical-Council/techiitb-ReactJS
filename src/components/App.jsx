@@ -27,8 +27,8 @@ import FooterTechCup from './FooterTech';
 import certi_main from "../certi_main";
 import CertiMainGroup from "./CertiMainGroup";
 
-
-
+import AeroBlogs from './AeroBlogs'
+import IndividualBlog from './IndividualBlog'
 
 
 // React Routing
@@ -48,6 +48,7 @@ class App extends React.Component {
 
 
                         <Route path='/techcup' component={TechScores} />
+
                         <Route path='/documentations' component={() => {
                             window.location.href = 'https://tech-iitb.org/documentation';
                             return null;
@@ -64,9 +65,11 @@ class App extends React.Component {
                         <Route path='/certificates' render={(props) => (<CertiMainGroup {...props} title="Choose Your Event" group={certi_main} />)} />
                         */}
                         <Route path='/team2020-21' component={Team2020} />
-
+                        <Route path='/aero' component = {AeroBlogs}/> #Kushal
+                        <Route path = '/individual' component = {IndividualBlog}></Route> #Kushal - individual blog frontend
                     </Switch>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            q
+
                     <section>
                         {/*<FooterTechCup />*/}
                         {/* <Team2020 /> */}
