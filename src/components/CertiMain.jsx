@@ -3,10 +3,10 @@ import certi_main from "../certi_main";
 
 function CertiMain(props) {
     return (
-            <div className="col-md-4 col-lg-3 card-container" style={{textAlign: "center" ,padding: "30px" }}>
+            <div className="col-md-4 col-lg-4 card-container" style={{textAlign: "center" ,padding: "30px" }}>
                 {/* <div className="card-flip"> */}
 
-                    <div className="card rounded-cards"  >
+                    <div className="card rounded-cards shadow"  >
                     <img src={props.img} class="card-img-top img-fluid" alt="..." style = {{padding: "-12px"}} />
                         <hr></hr>
                         <div className="card-body" >
