@@ -12,21 +12,26 @@ function Team2020() {
 
   return (
       <div className="container">
+          <div className="row">
         {
           teamgsta.map(item =>(
             <Gsta img={item.img} heading={item.heading} subheading={item.subheading}/>
           ))
         }
-        {
+        </div>
+          <div className="row">        {
         team_2.map(item =>(
           <Team2 img={item.img} heading={item.heading} subheading={item.subheading}/>
         ))
         }
+        </div>
+        <div className="row">
         {
         team_3.map(item =>(
           <Team3 img={item.img} heading={item.heading} subheading={item.subheading}/>
         ))
         }
+        </div>
       </div>
   );
 }

@@ -22,5 +22,17 @@ const team_2 = [
         subheading: "Sanjyot Shenoy",
         img: "https://www.tech-iitb.org/static/team2020/sanjyot.png",
     },
+    {
+        heading: "Institute Secretary Aeromodelling",
+        subheading : "Aman Malekar",
+        img: "https://www.tech-iitb.org/static/team2020/aman.png",
+
+
+    },
+    {
+        heading: "Institute Secretary BioX",
+        subheading: "Atharva Deshpande",
+        img: "https://www.tech-iitb.org/static/team2020/adeshpande.png",
+    },
     ];
 export default team_2;

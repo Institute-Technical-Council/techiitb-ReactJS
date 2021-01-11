@@ -1,13 +1,18 @@
 import React from 'react';
 import teamgsta from '../teamgsta'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Gsta(props) {
     return (
-            <div className="col-md-4 col-lg-3 card-container" style={{textAlign: "center" }}>
+
+
+            <div className="row" style={{marginTop: "25px"}}>
+            <div className="col-md-4 offset-4 card-container" style={{textAlign: "center" }}>
 
                     <div className="card rounded-cards"  >
-                    <img src={props.img} class="card-img-top img-fluid" alt="..." />
-                        <hr></hr>
+                    <img src={props.img} className="card-img-top img-fluid" alt="..." />
+
                         <div className="card-body" >
                             <h4 className="card-title">{props.heading}</h4>
 
@@ -16,7 +21,8 @@ function Gsta(props) {
 
                         </div>
                     </div>
-                    
+
+            </div>
             </div>
 
 

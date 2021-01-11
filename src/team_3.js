@@ -1,17 +1,7 @@
 
 const team_3 = [
-    {
-        heading: "Institute Secretary Aeromodelling",
-        subheading : "Aman Malekar",
-        img: "https://www.tech-iitb.org/static/team2020/aman.png",
 
 
-    },
-    {
-        heading: "Institute Secretary BioX",
-        subheading: "Atharva Deshpande",
-        img: "https://www.tech-iitb.org/static/team2020/adeshpande.png",
-    },
     {
         heading:"Institute Secretary Energy",
         subheading:"Atharva Lokhande",
