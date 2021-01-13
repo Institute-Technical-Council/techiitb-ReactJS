@@ -1,9 +1,28 @@
-import React from "react";
-
+import React,{useState,useEffect} from 'react'; 
 import blogs from "../blogs"
 import BlogCards from "./BlogsCards";
 import { ParallaxProvider, Parallax } from "react-skrollr";
 
+
+
+
+function BlogCardsGroup(props) {
+    useEffect(() => {
+        fetchItem();
+        // console.log(match);
+        console.log("Hello")
+        // console.log(item)
+    },[]);
+    // 
+    const [item,setItem] = useState([]);
+
+    const fetchItem = async () => {
+        const fetchItem = await fetch(`https://www.tech-iitb.org/api/v1/blogs/`);
+        const item = await fetchItem.json();
+        setItem(item)
+         ;
+    }
+    console.log(item)
 
 
 
@@ -14,7 +33,7 @@ const data = {
     "data-bottom-bottom": "padding: 2px;",
     "data-center-bottom": "padding: 100px;"
 };
-function BlogCardsGroup(props) {
+
     return (
 
         <div className="container-fluid">
@@ -24,13 +43,13 @@ function BlogCardsGroup(props) {
 
                 <div className="row">
 
-                    {props.group.map(blog => (
+                    {item.map(data => (
                         <BlogCards
-                            heading={blog.title}
-                            subheading={blog.author + "/" + blog.category}
-                            description={blog.short_description}
-                            img={blog.cover_img} 
-                            link={blog.link}
+                            heading={data.title}
+                            subheading={data.author + "/" + data.category}
+                            description={data.short_description}
+                            img={data.cover_img} 
+                            link={`/blogs/${data.author}`}
                             />
                     ))}
 
