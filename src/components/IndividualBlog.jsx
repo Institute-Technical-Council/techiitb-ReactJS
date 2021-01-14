@@ -6,32 +6,14 @@ function IndividualBlog({match}) {
     useEffect(() => {
         fetchItem();
         console.log(match);
-        
-        
     },[]);
     // 
     const [item,setItem] = useState({});
 
     const fetchItem = async () => {
-        const fetchItem = await fetch(`https://www.tech-iitb.org/api/v1/blogs/`);
-        const data = await fetchItem.json();
-        const author = match.params.author
-        console.log(author)
-        var i,j;
-        for (i = 0; i < data.length; i++) {
-            if (author == data[i].author) {
-                console.log("Matched")
-                j = i
-            }
-            // console.log(data[i].author)
-          }
-        console.log(data[j])
-        const item = data[j]
+        const fetchItem = await fetch(`https://www.tech-iitb.org/api/v1/blogs/${match.params.id}`);
+        const item = await fetchItem.json();
         setItem(item)
-
-
-        
-
          ;
     }
     return (
