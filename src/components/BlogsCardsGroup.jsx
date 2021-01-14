@@ -49,7 +49,7 @@ const data = {
                             subheading={data.author + "/" + data.category}
                             description={data.short_description}
                             img={data.cover_img} 
-                            link={`/blogs/${data.author}`}
+                            link={`/blogs/${data.id}`}
                             />
                     ))}
 
