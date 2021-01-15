@@ -1,14 +1,15 @@
-h1 {
+.hh1 {
+    color: #0B2D5C;
+    line-height: 80px;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    text-align: left;
+}
+.hh2 {
+    line-height: 100px;
     color: #0B2D5C;
     font-family: 'Bebas Neue';
     font-size: 100px;
-    text-align: left;
-}
-h2 {
-    line-height: 10px;
-    color: #0B2D5C;
-    font-family: 'Bebas Neue';
-    font-size: 60px;
     text-align: left;
 }
 .size {
@@ -16,11 +17,10 @@ h2 {
 }
 .carousel-caption {
     padding-bottom: 100px;
-    padding-left: 83px;
-    bottom: 0;
-    left: 0;
-    
-    
+    margin-left: -100px;
+    text-align: left;
+    text-shadow: 2px 2px #ffffff;
+
 }
 
 .carousel-img {

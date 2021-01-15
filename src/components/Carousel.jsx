@@ -28,8 +28,8 @@ function CarouselHome() {
 
                             />
                             <Carousel.Caption className="carousel-caption">
-                                <h2>{item.subheading}</h2>
-                                <h1>{item.heading}</h1>
+                                <p className="hh1">{item.subheading}</p>
+                                <p className="hh2">{item.heading}</p>
                               
                             </Carousel.Caption>
                             
