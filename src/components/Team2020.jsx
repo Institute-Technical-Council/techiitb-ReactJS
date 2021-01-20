@@ -26,11 +26,15 @@ function Team2020() {
         }
         </div>
         <div className="row">
-        {
-        team_3.map(item =>(
-          <Team3 img={item.img} heading={item.heading} subheading={item.subheading}/>
-        ))
-        }
+          <div className="col-md-8 offset-md-2">
+            <div className="row">
+            {
+              team_3.map(item =>(
+                <Team3 img={item.img} heading={item.heading} subheading={item.subheading}/>
+              ))
+             }
+            </div>
+          </div>
         </div>
       </div>
   );
