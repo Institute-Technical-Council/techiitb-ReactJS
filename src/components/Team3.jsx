@@ -5,7 +5,7 @@ function Team3(props){
     return (
 
              // <div className ="row"  style = {{marginTop: "25px"}}>
-            <div className="col-md-6 col-lg-3 card-container" style = {{marginTop: "25px"}}>
+            <div className="col-md-6 col-lg-6 card-container" style = {{marginTop: "25px"}}>
 
                     <div className="card rounded-cards"   >
                     <img src={props.img} className="card-img-top img-fluid" alt="..." style = {{padding: "-12px"}} />
