@@ -43,15 +43,15 @@ const data = {
 
                 <div className="row">
 
-                    {item.map(data => (
-                        <BlogCards
-                            heading={data.title}
-                            subheading={data.author + "/" + data.category}
-                            description={data.short_description}
-                            img={data.cover_img} 
-                            link={`/blogs/${data.id}`}
-                            />
-                    ))}
+                        {item.map(data => (
+                            <BlogCards
+                                heading={data.title}
+                                subheading={data.author + "/" + data.category}
+                                description={data.short_description}
+                                img={data.cover_img} 
+                                link={`/blogs/${data.id}`}
+                                />
+                        ))}
 
                 </div>
             </div>
