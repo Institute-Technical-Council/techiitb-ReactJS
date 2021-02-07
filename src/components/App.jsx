@@ -30,7 +30,7 @@ import CertiMainGroup from "./CertiMainGroup";
 import AeroBlogs from './AeroBlogs'
 import IndividualBlog from './IndividualBlog'
 
-
+import Certificates from './certibackend'
 // React Routing
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -64,6 +64,8 @@ class App extends React.Component {
                         {/* We will use this after react frontend is integrated with api
                         <Route path='/certificates' render={(props) => (<CertiMainGroup {...props} title="Choose Your Event" group={certi_main} />)} />
                         */}
+
+                        <Route path = '/certitest' component = {Certificates}></Route>
                         <Route path='/team2020-21' component={Team2020} />
                         <Route path='/aero' component = {AeroBlogs}/> #Kushal
                         <Route path = '/blogs/:id' component = {IndividualBlog}></Route> #Kushal - individual blog frontend
